@@ -1,0 +1,7 @@
+{
+  "allPreferredVersions": {},
+  "allowedAlternativeVersions": {},
+  "workspaceVersions": {},
+  "semverPath": "/Users/lukebeach/.nvm/versions/node/v20.13.1/lib/node_modules/@microsoft/rush/node_modules/semver/index.js",
+  "userPnpmfilePath": "/Users/lukebeach/Repos/personal/chat-bot/common/config/rush/.pnpmfile.cjs"
+}

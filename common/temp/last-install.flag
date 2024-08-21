@@ -1,0 +1,11 @@
+{
+  "node": "20.16.0",
+  "packageManager": "pnpm",
+  "packageManagerVersion": "8.15.8",
+  "rushJsonFolder": "/Users/lukebeach/Repos/personal/chat-bot",
+  "ignoreScripts": false,
+  "pnpmSync": "0.2.9",
+  "npmrcHash": "faf2527e61716426e4c7c0a56a64d21ae059d00f",
+  "storePath": "/Users/lukebeach/Repos/personal/chat-bot/common/temp/pnpm-store",
+  "workspaces": true
+}
