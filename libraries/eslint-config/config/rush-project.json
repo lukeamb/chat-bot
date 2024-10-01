@@ -1,0 +1,17 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush-project.schema.json",
+
+    "incrementalBuildIgnoredGlobs": [
+        // "etc/api-report/*.md"
+    ],
+    "operationSettings": [
+        {
+            "operationName": "_phase:build",
+            "outputFolderNames": ["lib", "dist"]
+        },
+        {
+            "operationName": "_phase:test",
+            "outputFolderNames": ["temp/coverage", "temp/jest-reports"]
+        }
+    ]
+}

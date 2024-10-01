@@ -1,0 +1,94 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@babel/core",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@babel/plugin-syntax-flow",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/eslint-config",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/eslint-patch",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/heft",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/heft-lint-plugin",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/heft-typescript-plugin",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "deployed", "internal" ]
+    },
+    {
+      "name": "eslint-config-next",
+      "allowedCategories": [ "deployed", "internal" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "eslint-config-react-app",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "eslint-plugin-react",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "eslint-plugin-storybook",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "next",
+      "allowedCategories": [ "deployed", "internal" ]
+    },
+    {
+      "name": "postcss",
+      "allowedCategories": [ "deployed" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "deployed", "internal" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "deployed", "internal" ]
+    },
+    {
+      "name": "tailwindcss",
+      "allowedCategories": [ "deployed" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "deployed", "internal" ]
+    }
+  ]
+}

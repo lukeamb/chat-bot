@@ -124,7 +124,7 @@
     //    * Designate categories with whatever granularity is appropriate for your review process,
     //    * or you could just have a single category called "default".
     //    */
-    "reviewCategories": ["published", "internal"],
+    "reviewCategories": ["published", "internal", "deployed"],
     //
     //   /**
     //    * A list of NPM package scopes that will be excluded from review.
@@ -379,9 +379,15 @@
     // },
     //
     {
-      "packageName": "react-example",
-      "projectFolder": "examples/react-example",
-      "reviewCategory": "production",
+      "packageName": "@lukeamb/example-bot",
+      "projectFolder": "browser/example-bot",
+      "reviewCategory": "deployed",
+      "tags": ["example"]
+    },
+    {
+      "packageName": "@lukeamb/eslint-config",
+      "projectFolder": "libraries/eslint-config",
+      "reviewCategory": "internal",
       "tags": ["example"]
     }
   ]

@@ -2,6 +2,7 @@
   "folders": [
     { "name": "repo", "path": "./" },
     { "name": "apis", "path": "./apis" },
-    { "name": "browsers", "path": "./browser" }
+    { "name": "browsers", "path": "./browser" },
+    { "name": "libraries", "path": "./libraries" }
   ]
 }

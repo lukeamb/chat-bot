@@ -1,0 +1,39 @@
+{
+    "name": "@lukeamb/eslint-config",
+    "version": "1.0.0",
+    "description": "eslint kit",
+    "main": "lib/start.js",
+    "typings": "lib/start.d.ts",
+    "scripts": {
+        "_phase:build": "heft build --clean",
+        "build": "heft build --clean"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@rushstack/heft": "~0.68.1",
+        "@rushstack/heft-typescript-plugin": "~0.5.29",
+        "typescript": "~5.6.2",
+        "@types/node": "~22.7.4",
+        "@rushstack/eslint-config": "~4.0.2",
+        "@rushstack/heft-lint-plugin": "~0.4.5",
+        "eslint": "^8.57.0",
+        "eslint-config-next": "14.2.14",
+        "eslint-plugin-storybook": "^0.9.0",
+        "@types/react": "~18.3.10",
+        "@types/react-dom": "~18.3.0",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "eslint-config-prettier": "~9.1.0",
+        "eslint-config-react-app": "~7.0.1",
+        "eslint-plugin-react": "^7.37.1",
+        "@rushstack/eslint-patch": "~1.10.4"
+    },
+    "dependencies": {
+        "@babel/plugin-syntax-flow": "~7.24.7",
+        "@babel/plugin-transform-react-jsx": "~7.25.2",
+        "@babel/core": "~7.25.2",
+        "next": "14.2.14",
+        "react": "^18.2",
+        "react-dom": "^18.2"
+    }
+}
