@@ -395,6 +395,18 @@
       "projectFolder": "libraries/eslint-config",
       "reviewCategory": "internal",
       "tags": ["internal"]
+    },
+    {
+      "packageName": "@lukeamb/rest",
+      "projectFolder": "libraries/rest",
+      "reviewCategory": "internal",
+      "tags": ["internal"]
+    },
+    {
+      "packageName": "@lukeamb/default",
+      "projectFolder": "libraries/default",
+      "reviewCategory": "internal",
+      "tags": ["internal"]
     }
   ]
 }

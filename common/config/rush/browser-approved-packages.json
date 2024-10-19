@@ -16,7 +16,7 @@
     },
     {
       "name": "@lukeamb/eslint-config",
-      "allowedCategories": [ "deployed" ]
+      "allowedCategories": [ "deployed", "internal" ]
     },
     {
       "name": "@rushstack/eslint-config",
@@ -36,7 +36,7 @@
     },
     {
       "name": "@rushstack/heft-node-rig",
-      "allowedCategories": [ "deployed" ]
+      "allowedCategories": [ "deployed", "internal" ]
     },
     {
       "name": "@rushstack/heft-typescript-plugin",
@@ -76,7 +76,7 @@
     },
     {
       "name": "express",
-      "allowedCategories": [ "deployed" ]
+      "allowedCategories": [ "deployed", "internal" ]
     },
     {
       "name": "next",
