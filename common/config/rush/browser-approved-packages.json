@@ -15,20 +15,28 @@
       "allowedCategories": [ "internal" ]
     },
     {
+      "name": "@lukeamb/eslint-config",
+      "allowedCategories": [ "deployed" ]
+    },
+    {
       "name": "@rushstack/eslint-config",
       "allowedCategories": [ "internal" ]
     },
     {
       "name": "@rushstack/eslint-patch",
-      "allowedCategories": [ "internal" ]
+      "allowedCategories": [ "deployed", "internal" ]
     },
     {
       "name": "@rushstack/heft",
-      "allowedCategories": [ "internal" ]
+      "allowedCategories": [ "deployed", "internal" ]
     },
     {
       "name": "@rushstack/heft-lint-plugin",
       "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "@rushstack/heft-node-rig",
+      "allowedCategories": [ "deployed" ]
     },
     {
       "name": "@rushstack/heft-typescript-plugin",
@@ -65,6 +73,10 @@
     {
       "name": "eslint-plugin-storybook",
       "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "express",
+      "allowedCategories": [ "deployed" ]
     },
     {
       "name": "next",

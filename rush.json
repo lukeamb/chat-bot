@@ -16,7 +16,7 @@
    * path segment in the "$schema" field for all your Rush config files.  This will ensure
    * correct error-underlining and tab-completion for editors such as VS Code.
    */
-  "rushVersion": "5.136.1",
+  "rushVersion": "5.139.0",
 
   /**
    * The next field selects which package manager should be installed and determines its version.
@@ -385,10 +385,16 @@
       "tags": ["example"]
     },
     {
+      "packageName": "@lukeamb/bot-api",
+      "projectFolder": "rest/bot-api",
+      "reviewCategory": "deployed",
+      "tags": ["api"]
+    },
+    {
       "packageName": "@lukeamb/eslint-config",
       "projectFolder": "libraries/eslint-config",
       "reviewCategory": "internal",
-      "tags": ["example"]
+      "tags": ["internal"]
     }
   ]
 }
